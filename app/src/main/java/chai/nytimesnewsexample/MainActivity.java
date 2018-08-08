@@ -3,7 +3,6 @@ package chai.nytimesnewsexample;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.view.View;
@@ -23,7 +22,6 @@ import retrofit2.Response;
 public class MainActivity extends AppCompatActivity {
     ActivityMainBinding activityMainBinding;
     chai.nytimesnewsexample.ListAdapter adapter;
-    public static final Handler handler = new Handler();
     List<String> arrayList= new ArrayList<>();
     List<String> urlList = new ArrayList<>();
     List<String> iconList = new ArrayList<>();

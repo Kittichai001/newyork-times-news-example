@@ -29,9 +29,9 @@ public class ListAdapter extends BaseAdapter implements Filterable {
     Context context;
     private LayoutInflater inflater;
 
-    public ListAdapter(List<String> cancel_type, List<String> iconList, Context context) {
-        mData=cancel_type;
-        mStringFilterList = cancel_type;
+    public ListAdapter(List<String> mData, List<String> iconList, Context context) {
+        this.mData =mData;
+        mStringFilterList = mData;
         this.iconList = iconList;
         this.context = context;
     }
